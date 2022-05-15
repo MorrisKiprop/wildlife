@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Patient Enrollment</title>
+
+
+    <style>
+        form{
+            margin: 20px;
+            border:2px solid cornflowerblue;
+            border-radius: 6px;
+
+            background-position: center;
+            background-size: cover;
+            color: darkblue;
+            background-repeat: no-repeat;
+            width: 80%;
+
+        }
+
+        div{
+         padding: 10px;
+
+        }
+        .contactinput{
+            width: 100%;
+            padding: 10px 10px;
+            margin: 8px 0px;
+            display:inline-block ;
+            box-sizing: border-box;
+            border: 1px solid darkgoldenrod;
+            border-radius: 4px;
+            background-color: cadetblue;
+            border: 1000px;
+        }
+        .buttonstyle{
+            width: 20%;
+            padding: 12px;12px;
+            background-color:dodgerblue;
+            border: none;
+            border-radius:8px ;
+
+        }
+
+    </style>
+
+
+
+</head>
+<body>
+<div <div class="container">
+
+
+<form>
+<img src="images/med logo.jpeg"  alt="loading"width="200" height="200" style="float: left">
+
+
+    <p>
+    <h2 style="text-align: left" >MK MEDICAL CENTRE</h2>
+    <h3>Email:mkmedicals@gmail.com <br>
+    Phone Number:0112447586 <br>
+    visit us @www.mkmedicalcentre@yahoo.com
+    </h3>
+
+
+
+    </p>
+
+
+
+<hr>
+    <br>
+
+    <div class="row"><br>
+        <div class="col">
+            <label>First Name*</label><br>
+            <input type="text"class="contactinput name" aria-label="First name"required placeholder="first name">
+        </div>
+        <div class="col">
+            <label>Last Name*</label><br>
+            <input type="text"class="contactinput"  placeholder="Last name" aria-label="Last name"required>
+        </div>
+    </div>
+<div>
+    <label>Date of Birth*</label>
+    <input class="contactinput" type="datetime-local"required>
+
+</div>
+ 
+<br>
+<div>
+    <label>Age*</label>
+    <input class="contactinput" type="number"required>
+
+</div>
+<br>
+<div>
+    <label>Contact Number*</label>
+    <input class="contactinput" name="pnumber" value="+254">
+    
+</div>
+<br>
+<div>
+    <label>E-mail*</label>
+    <input class="contactinput" name="emailadress" placeholder="e.g morriskiprop@gmail.com">
+</div>
+<br>
+<div>
+    <label>Adress*</label>
+    <input class="contactinput"name="adress" placeholder="hometown adress">
+
+
+        </div>
+        <div class="col-12">
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                <label class="form-check-label" for="invalidCheck">
+                    Click here if you are sure all the details you have entered are correct
+                </label>
+
+            </div>
+        </div>
+        <div class="col-12">
+            <button class="buttonstyle">Submit form</button>
+        </div>
+
+
+
+    </form>
+
+
+
+
+</body>
+</html>

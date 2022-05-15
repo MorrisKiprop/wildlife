@@ -1,0 +1,123 @@
+
+
+.topnav{
+    background-color: mediumseagreen ;
+    overflow: hidden ;
+}
+.topnav a{
+    text-decoration:none ;
+    padding: 18px 18px;
+    display:block ;
+    float: left;
+    text-align: center;
+    color: aliceblue;
+
+
+;
+}
+.topnav a:hover{
+    background-color: yellow;
+    color: black;
+
+}
+.landimg{
+    background-image: url("../images/zebras.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+}
+.landtext{
+    text-align: center;
+    color: aliceblue;
+    font-size: 25px;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    position: absolute;
+
+}
+.landbtn{
+    background-color: mediumseagreen;
+    padding: 12px 12px;
+    color: aliceblue;
+    border-radius: 8px;
+    border:none ;
+    width: 40%;hove
+
+}
+.seperate{
+    margin-top: 12px;
+
+}
+.landbtn:hover{
+    background-color: yellow;
+    color: black;
+}
+.tablestyle{
+    width: 80%;
+    border:1px solid mediumseagreen;
+    background-color: mediumseagreen;
+    border-collapse: collapse;
+    color: black;
+    margin-left: auto;
+    margin-right: auto
+
+}
+.tablestyle th,td{
+    border: 1px solid black;
+    padding: 12px;
+    text-align: center;
+
+
+}
+.flexbox{
+display: flex;
+}
+.flexbox div{
+    margin: 10px;
+
+}
+.flexbox p{
+    border: 1px solid black;
+    text-align: left;
+}
+.flexbox h3{
+    text-align: center;
+    font-family: Andalus;
+
+}
+.formstyle{
+    border: 3px solid black;
+    padding: 20px;
+    margin: 20px;
+    background-color:mediumseagreen;
+}
+.formstyle input,textarea{
+    width: 100%;
+    padding: 12px 12px;
+    margin: 8px 0;
+    display: inline-block;
+    box-sizing:border-box;
+    border-radius: 4px;
+    border: 1px solid black;
+}
+.contactinput{
+    width: 100%;
+    padding: 10px 10px;
+    margin: 8px 0px;
+    display:inline-block ;
+    box-sizing: border-box;
+    border: 1px solid darkgoldenrod;
+    border-radius: 4px;
+    background-color: white;
+    border: 1000px;
+}
+.buttonstyle{
+    width: 20%;
+    padding: 12px;12px;
+    background-color:forestgreen;
+    border: none;
+    border-radius:8px ;
+
+}

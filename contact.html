@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FORMS</title>
+    <style>
+        div{
+            padding: 10px;
+        }
+        form{
+            margin: 20px;
+            border:2px solid coral;
+            border-radius: 2px;
+            background-image: url("images/pexels-rahul-716398.jpg");
+            background-position: center;
+            background-size: cover;
+            color: coral;
+            background-repeat: no-repeat;
+            width: 60%;
+
+        }
+        .buttonstyle {
+            width: 20%;
+            padding: 12px;
+            12px;
+            background-color:goldenrod;
+            border: none;
+            border-radius: 8px;
+        }
+        .contactinput{
+            width: 100%;
+            padding: 10px 10px;
+        margin: 8px 0px;
+            display:inline-block ;
+        box-sizing: border-box;
+            border: 1px solid darkgoldenrod;
+            border-radius: 4px;
+            background-color: burlywood;
+        }
+        .center{
+            text-align: center;
+            color: chocolate;
+        }
+
+
+
+    </style>
+</head>
+<body>
+<h3 class="center">Fill in the form</h3>
+<form action="H"
+      <div>
+          <label>Full name *</label><br>
+          <input class="contactinput" type="text" name="full name" placeholder="e.g John boe"required>
+
+      </div>
+        <div>
+            <label>Email adress *</label><br>
+            <input class="contactinput" type="text" name="email" placeholder="e.g morriskiprop@gmail.com"required>
+        </div>
+        <div>
+            <label>Phone number*</label><br>
+            <input class="contactinput" name="pnumber"required>
+
+        </div>
+
+        <div>
+            <label>Country*</label><br>
+            <select  class="contactinput" id="county"required>
+                <option value="Nairobi">Nairobi</option>
+                <option value="Kisumu">Kisumu</option>
+                <option value="Mombasai">Mombasa</option>
+                <option value="Kakamega">Kakamega</option>
+                <option value="Nakuru">Nakuru</option>
+                <option value="Baringo">Baringo</option>
+
+            </select>
+
+        </div>
+        
+        <div>
+            <label>Booking*</label><br>
+            <input class="contactinput" type="datetime-local"name="booking"required>
+            
+            
+        </div>
+       <div>
+           <iput class="buttonstyle" type="submit" name="submit">
+
+       </div>
+
+</body>
+</html>
